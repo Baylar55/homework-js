@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  font-family: "Montserrat", sans-serif;
+  width: 1400px;
+}
+
+.first-screen {
+  background-image: url(./assets/images/background.png);
+  height: 900px;
+  border-image-width: auto;
+  color: white;
+}
+
+.info {
+  width: 1110px;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.first-screen p {
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.main-nav {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: table;
+}
+.nav-items {
+  width: 1110px;
+  height: 47px;
+  display: table;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+.nav-items li {
+  display: table-cell;
+  border: 1px solid white;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+.nav-items li:first-child {
+  border-left: solid transparent;
+}
+
+.nav-items li:last-child {
+  border-right: solid transparent;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 600px;
+}
+
+.buttons button:not(:last-child) {
+  margin-right: 60px;
+}
+
+.buttons button {
+  border-radius: dashed;
+  width: 180px;
+  height: 50px;
+  background-color: #998431;
+  color: white;
+}
+
+.description {
+  height: 856px;
+  background-color: #282828;
+  
+}
+
+/* bura baxxx */
+.description-box {
+  border: 1px solid red;
+  width: 810px;
+  height: 656px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
