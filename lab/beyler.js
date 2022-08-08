@@ -2,9 +2,7 @@ let name = prompt("What is your name?")
 let height = prompt("How much is your height?")
 let weight = prompt("How much is your weight?")
 let BMR=weight / Math.pow(height,2)
-if (BMR<=0) {
-    alert(name + ", brat you don't live.")
-} 
+
 else if(BMR>0 && BMR<18.5){
     alert(name + " is underweight.")
 }
